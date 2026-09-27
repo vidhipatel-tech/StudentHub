@@ -4,6 +4,7 @@ A web-based student portal designed for managing events, student profiles, feedb
 
 ## 📁 Directory Structure
 
+```text
 StudentHub/
 │
 ├── 📄 home.html               # Main landing page
