@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudentHub student portal">
+  <title>Admin Dashboard - StudentHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+  <aside class="side-nav" aria-label="Primary navigation">
+    <a class="brand-mark" href="home.html" aria-label="StudentHub home">SH</a>
+    <nav class="side-links">
+      <a href="home.html">Home</a>
+      <a href="events.html">Events</a>
+      <button class="side-hub" id="sideHubBtn" type="button" aria-expanded="false"
+        aria-controls="sideHubMenu">Hub</button>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="side-bottom">STUDENTHUB</div>
+    <div class="side-hub-menu" id="sideHubMenu">
+      <a href="student-dashboard.html">Student</a>
+      <a href="admin-dashboard.html">Admin</a>
+    </div>
+  </aside>
+  <header class="top-nav">
+    <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="top-links" id="topLinks" aria-label="Top navigation">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <a href="feedback.html">Feedback</a>
+      <div class="hub-menu-wrap">
+        <button class="hub-button" id="hubButton" type="button" aria-expanded="false" aria-controls="hubMenu">Hub
+          <span>⌄</span></button>
+        <div class="hub-menu" id="hubMenu" hidden>
+          <a href="student-dashboard.html">Student Dashboard</a>
+          <a href="admin-dashboard.html">Admin Dashboard</a>
+        </div>
+      </div>
+      <a href="login.html">Login</a>
+      <a class="top-register" href="register.html">Register</a>
+    </nav>
+    <button class="theme-button" id="themeButton" type="button" aria-label="Switch theme">☾</button>
+  </header>
+  <main class="page"><!-- Practical 2: Semantic HTML5 -->
+    <div class="dashboard-shell">
+      <aside class="dashboard-side">
+        <h3>STUDENTHUB</h3><a class="active" href="admin-dashboard.html">Dashboard</a><a href="#students">Students</a><a
+          href="events.html">Events</a><a href="#registrations">Registrations</a><a href="#faqs">FAQs</a><a
+          href="#feedback">Feedback</a><a href="home.html">Logout</a>
+      </aside>
+      <div class="dashboard-main">
+        <div class="dashboard-title">
+          <div>
+            <div class="kicker">Portal administration</div>
+            <h1>ADMIN DASHBOARD</h1>
+          </div><span class="muted">ADMIN</span>
+        </div>
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-label">Students</div>
+            <div class="stat-value" id="studentCount">15</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Events</div>
+            <div class="stat-value" id="adminEventCount">15</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Registrations</div>
+            <div class="stat-value">42</div>
+          </div>
+        </div>
+        <section class="dashboard-section" id="students">
+          <h2>Student Records</h2>
+          <div class="toolbar single"><label class="search-box wide"><span class="sr-only">Search students</span><input
+                id="studentSearch" type="search" placeholder="Search by name, email or branch..."></label></div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Student ID</th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Course</th>
+                  <th>Year</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="studentTable"></tbody>
+            </table>
+          </div>
+        </section>
+        <section class="dashboard-section" id="registrations">
+          <h2>Event Registrations</h2>
+          <p class="muted">Registered students can be reviewed with their selected event and registration date.</p>
+          <div class="registration-list">
+            <div><strong>STU003</strong><span>Tech Fest 2026</span><span>20 Sep 2026</span></div>
+            <div><strong>STU007</strong><span>Student Meetup</span><span>21 Sep 2026</span></div>
+            <div><strong>STU010</strong><span>Career Preparation Session</span><span>22 Sep 2026</span></div>
+          </div>
+        </section>
+        <section class="dashboard-section" id="faqs">
+          <h2>FAQ Management</h2>
+          <p>FAQ entries are available through the FAQ page and are loaded from the portal FAQ data.</p><a
+            class="btn btn-outline" href="faq.html">View FAQs</a>
+        </section>
+        <section class="dashboard-section" id="feedback">
+          <h2>Feedback</h2>
+          <p>Student suggestions and portal feedback are submitted through the Feedback page.</p><a
+            class="btn btn-outline" href="feedback.html">View Feedback</a>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer>STUDENTHUB &nbsp; / &nbsp; Campus information, student services and events.</footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#111B2E"/>
+<rect x="26" y="26" width="848" height="468" fill="#17243A" stroke="#334155" stroke-width="2"/>
+<circle cx="760" cy="110" r="120" fill="#F97316" opacity="0.10"/>
+<circle cx="760" cy="110" r="75" fill="none" stroke="#F97316" stroke-width="2" opacity="0.65"/>
+<path d="M40 430 L860 80" stroke="#F97316" stroke-width="2" opacity="0.18"/>
+<text x="36" y="72" fill="#F97316" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="5">STUDENTHUB</text>
+<text x="36" y="105" fill="#94A3B8" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">COMMUNITY</text>
+<g fill="#F1F5F9" font-family="Arial,sans-serif" font-size="46" font-weight="800"><text x="36" y="132" class="title">Student Meetup</text></g>
+<text x="36" y="442" fill="#94A3B8" font-family="Arial,sans-serif" font-size="18">2026-10-18</text>
+<text x="860" y="442" text-anchor="end" fill="#F97316" font-family="Arial,sans-serif" font-size="18" font-weight="700">EVENT 02</text>
+</svg>

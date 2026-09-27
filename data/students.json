@@ -1,0 +1,122 @@
+[
+  {
+    "id": "STU001",
+    "name": "Aarav Shah",
+    "email": "aarav.shah@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "3rd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU002",
+    "name": "Diya Patel",
+    "email": "diya.patel@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "3rd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU003",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta@studenthub.edu",
+    "course": "B.Tech CE",
+    "year": "3rd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU004",
+    "name": "Mahi Desai",
+    "email": "mahi.desai@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "2nd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU005",
+    "name": "Kunal Joshi",
+    "email": "kunal.joshi@studenthub.edu",
+    "course": "B.Tech CE",
+    "year": "3rd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU006",
+    "name": "Isha Shah",
+    "email": "isha.shah@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "2nd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU007",
+    "name": "Yash Trivedi",
+    "email": "yash.trivedi@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "3rd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU008",
+    "name": "Niyati Patel",
+    "email": "niyati.patel@studenthub.edu",
+    "course": "B.Tech CE",
+    "year": "1st Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU009",
+    "name": "Dev Mehta",
+    "email": "dev.mehta@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "3rd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU010",
+    "name": "Krisha Shah",
+    "email": "krisha.shah@studenthub.edu",
+    "course": "B.Tech CSE",
+    "year": "2nd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU011",
+    "name": "Aditya Desai",
+    "email": "aditya.desai@studenthub.edu",
+    "course": "B.Tech CSE",
+    "year": "3rd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU012",
+    "name": "Riya Patel",
+    "email": "riya.patel@studenthub.edu",
+    "course": "B.Tech CE",
+    "year": "2nd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU013",
+    "name": "Manav Shah",
+    "email": "manav.shah@studenthub.edu",
+    "course": "B.Tech CSE",
+    "year": "3rd Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU014",
+    "name": "Kavya Mehta",
+    "email": "kavya.mehta@studenthub.edu",
+    "course": "B.Tech CSE",
+    "year": "1st Year",
+    "status": "Active"
+  },
+  {
+    "id": "STU015",
+    "name": "Dhruv Patel",
+    "email": "dhruv.patel@studenthub.edu",
+    "course": "B.Tech IT",
+    "year": "3rd Year",
+    "status": "Active"
+  }
+]

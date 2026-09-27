@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudentHub student portal">
+  <title>Student Dashboard - StudentHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+  <aside class="side-nav" aria-label="Primary navigation">
+    <a class="brand-mark" href="home.html" aria-label="StudentHub home">SH</a>
+    <nav class="side-links">
+      <a href="home.html">Home</a>
+      <a href="events.html">Events</a>
+      <button class="side-hub" id="sideHubBtn" type="button" aria-expanded="false"
+        aria-controls="sideHubMenu">Hub</button>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="side-bottom">STUDENTHUB</div>
+    <div class="side-hub-menu" id="sideHubMenu">
+      <a href="student-dashboard.html">Student</a>
+      <a href="admin-dashboard.html">Admin</a>
+    </div>
+  </aside>
+  <header class="top-nav">
+    <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="top-links" id="topLinks" aria-label="Top navigation">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <a href="feedback.html">Feedback</a>
+      <div class="hub-menu-wrap">
+        <button class="hub-button" id="hubButton" type="button" aria-expanded="false" aria-controls="hubMenu">Hub
+          <span>⌄</span></button>
+        <div class="hub-menu" id="hubMenu" hidden>
+          <a href="student-dashboard.html">Student Dashboard</a>
+          <a href="admin-dashboard.html">Admin Dashboard</a>
+        </div>
+      </div>
+      <a href="login.html">Login</a>
+      <a class="top-register" href="register.html">Register</a>
+    </nav>
+    <button class="theme-button" id="themeButton" type="button" aria-label="Switch theme">☾</button>
+  </header>
+  <main class="page"><!-- Practical 2: Semantic HTML5 -->
+    <div class="dashboard-shell">
+      <aside class="dashboard-side">
+        <h3>STUDENTHUB</h3><a class="active" href="student-dashboard.html">Dashboard</a><a
+          href="profile.html">Profile</a><a href="events.html">Events</a><a href="#attendance">Attendance</a><a
+          href="#results">Results</a><a href="#courses">Courses</a><a href="feedback.html">Feedback</a><a
+          href="home.html">Logout</a>
+      </aside>
+      <div class="dashboard-main">
+        <div class="dashboard-title">
+          <div>
+            <div class="kicker">Student space</div>
+            <h1>WELCOME, STUDENT</h1>
+          </div><span class="muted">B.TECH IT / SEM 3</span>
+        </div>
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-label">Attendance</div>
+            <div class="stat-value">85%</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Upcoming Events</div>
+            <div class="stat-value" id="upcomingCount">03</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Notifications</div>
+            <div class="stat-value">04</div>
+          </div>
+        </div>
+        <section class="dashboard-section" id="courses">
+          <h2>My Course</h2>
+          <p class="muted">B.Tech Information Technology / Semester 3</p>
+          <div class="course-grid"><a class="course-card" href="#"><span class="course-code">SUBJECT</span>
+              <h3>FCN</h3>
+              <p class="muted">View subject →</p>
+            </a><a class="course-card" href="#"><span class="course-code">SUBJECT</span>
+              <h3>FDSA</h3>
+              <p class="muted">View subject →</p>
+            </a><a class="course-card" href="#"><span class="course-code">SUBJECT</span>
+              <h3>WDF</h3>
+              <p class="muted">View subject →</p>
+            </a></div>
+        </section>
+        <section class="dashboard-section" id="attendance">
+          <h2>Attendance</h2>
+          <div class="progress-row"><span>Overall attendance</span><strong>85%</strong></div>
+          <div class="progress"><span style="width:85%"></span></div>
+        </section>
+        <section class="dashboard-section" id="results">
+          <h2>Results</h2>
+          <div class="result-grid">
+            <div><span class="course-code">FCN</span><strong>A</strong></div>
+            <div><span class="course-code">FDSA</span><strong>A</strong></div>
+            <div><span class="course-code">WDF</span><strong>A</strong></div>
+            <div><span class="course-code">OOP JAVA</span><strong>B+</strong></div>
+          </div>
+        </section>
+        <section class="dashboard-section">
+          <h2>Upcoming Events</h2>
+          <div class="event-grid compact" id="dashboardEvents"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer>STUDENTHUB &nbsp; / &nbsp; Campus information, student services and events.</footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

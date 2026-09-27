@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudentHub student portal">
+  <title>Home - StudentHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+  <aside class="side-nav" aria-label="Primary navigation">
+    <a class="brand-mark" href="home.html" aria-label="StudentHub home">SH</a>
+    <nav class="side-links">
+      <a class="active" href="home.html">Home</a>
+      <a href="events.html">Events</a>
+      <button class="side-hub" id="sideHubBtn" type="button" aria-expanded="false"
+        aria-controls="sideHubMenu">Hub</button>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="side-bottom">STUDENTHUB</div>
+    <div class="side-hub-menu" id="sideHubMenu">
+      <a href="student-dashboard.html">Student</a>
+      <a href="admin-dashboard.html">Admin</a>
+    </div>
+  </aside>
+  <header class="top-nav">
+    <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="top-links" id="topLinks" aria-label="Top navigation">
+      <a class="active" href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <a href="feedback.html">Feedback</a>
+      <div class="hub-menu-wrap">
+        <button class="hub-button" id="hubButton" type="button" aria-expanded="false" aria-controls="hubMenu">Hub
+          <span>⌄</span></button>
+        <div class="hub-menu" id="hubMenu" hidden>
+          <a href="student-dashboard.html">Student Dashboard</a>
+          <a href="admin-dashboard.html">Admin Dashboard</a>
+        </div>
+      </div>
+      <a href="login.html">Login</a>
+      <a class="top-register" href="register.html">Register</a>
+    </nav>
+    <button class="theme-button" id="themeButton" type="button" aria-label="Switch theme">☾</button>
+  </header>
+  <main class="page"><!-- Practical 2: Semantic HTML5 -->
+    <section class="hero" id="homeHero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="kicker">A student-first digital hub</div>
+        <h1>YOUR<br><span>CAMPUS.</span><br>YOUR HUB.</h1>
+        <p class="hero-description">StudentHub brings campus events, course information, notices and your student space
+          together in one place.</p>
+        <div class="hero-actions"><a class="btn" href="events.html">Explore Events</a><a class="btn btn-outline"
+            href="register.html">Join StudentHub</a></div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit">
+          <div class="orbit-label">STUDENT<br>HUB<br><small>CONNECT / DISCOVER / GROW</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="notice-banner" id="noticeBanner" role="status">
+      <div><strong>StudentHub Update</strong><span>New campus activities and student events are available on the Events
+          page.</span></div>
+      <button id="closeNotice" type="button" aria-label="Dismiss notification">×</button>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>What's<br>Happening</h2>
+          <p>Browse student activities, workshops and campus events.</p>
+        </div>
+        <div class="home-slider" aria-label="Featured events">
+          <button class="slider-arrow prev" id="sliderPrev" type="button" aria-label="Previous event">‹</button>
+          <div class="slider-track" id="homeSlider"></div>
+          <button class="slider-arrow next" id="sliderNext" type="button" aria-label="Next event">›</button>
+        </div>
+        <div class="slider-dots" id="sliderDots" aria-label="Featured event slides"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Notice<br>Board</h2>
+          <p>Important information for students using the portal.</p>
+        </div>
+        <div class="announcement-list">
+          <article class="announcement"><span class="announcement-date">01</span>
+            <h3>Semester 3 course information is available in the student space.</h3><a href="student-dashboard.html"
+              aria-label="Open student dashboard">→</a>
+          </article>
+          <article class="announcement"><span class="announcement-date">02</span>
+            <h3>Event registrations are available from the Events page.</h3><a href="events.html"
+              aria-label="Open events">→</a>
+          </article>
+          <article class="announcement"><span class="announcement-date">03</span>
+            <h3>Student profile details and profile photo can be updated from Hub.</h3><a href="profile.html"
+              aria-label="Open profile">→</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Explore<br>Your Course</h2>
+          <p>Choose from the three B.Tech branches available in StudentHub.</p>
+        </div>
+        <div class="course-grid">
+          <a class="course-card" href="student-dashboard.html"><span class="course-code">B.TECH</span>
+            <h3>Information Technology</h3>
+            <p class="muted">Subjects · Semester 3 →</p>
+          </a>
+          <a class="course-card" href="student-dashboard.html"><span class="course-code">B.TECH</span>
+            <h3>Computer Engineering</h3>
+            <p class="muted">Subjects · Semester 3 →</p>
+          </a>
+          <a class="course-card" href="student-dashboard.html"><span class="course-code">B.TECH</span>
+            <h3>Computer Science Engineering</h3>
+            <p class="muted">Subjects · Semester 3 →</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Practical 4: JavaScript UI Interactivity -->
+    <div class="modal" id="eventModal" hidden role="dialog" aria-modal="true" aria-labelledby="eventModalTitle">
+      <div class="modal-card"><button class="modal-close" id="modalClose" type="button"
+          aria-label="Close event details">×</button><img id="eventModalImage" src="" alt="">
+        <div class="modal-content"><span class="course-code" id="eventModalCategory"></span>
+          <h2 id="eventModalTitle"></h2>
+          <p id="eventModalMeta" class="muted"></p>
+          <p id="eventModalDescription"></p><a class="btn" href="events.html">View Events</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>STUDENTHUB &nbsp; / &nbsp; Campus information, student services and events.</footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

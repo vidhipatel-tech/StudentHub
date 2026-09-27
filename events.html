@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudentHub student portal">
+  <title>Events - StudentHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+  <aside class="side-nav" aria-label="Primary navigation">
+    <a class="brand-mark" href="home.html" aria-label="StudentHub home">SH</a>
+    <nav class="side-links">
+      <a href="home.html">Home</a>
+      <a class="active" href="events.html">Events</a>
+      <button class="side-hub" id="sideHubBtn" type="button" aria-expanded="false"
+        aria-controls="sideHubMenu">Hub</button>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="side-bottom">STUDENTHUB</div>
+    <div class="side-hub-menu" id="sideHubMenu">
+      <a href="student-dashboard.html">Student</a>
+      <a href="admin-dashboard.html">Admin</a>
+    </div>
+  </aside>
+  <header class="top-nav">
+    <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="top-links" id="topLinks" aria-label="Top navigation">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a class="active" href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <a href="feedback.html">Feedback</a>
+      <div class="hub-menu-wrap">
+        <button class="hub-button" id="hubButton" type="button" aria-expanded="false" aria-controls="hubMenu">Hub
+          <span>⌄</span></button>
+        <div class="hub-menu" id="hubMenu" hidden>
+          <a href="student-dashboard.html">Student Dashboard</a>
+          <a href="admin-dashboard.html">Admin Dashboard</a>
+        </div>
+      </div>
+      <a href="login.html">Login</a>
+      <a class="top-register" href="register.html">Register</a>
+    </nav>
+    <button class="theme-button" id="themeButton" type="button" aria-label="Switch theme">☾</button>
+  </header>
+  <main class="page"><!-- Practical 2: Semantic HTML5 -->
+    <header class="page-header">
+      <div class="container">
+        <div class="kicker">Campus activities</div>
+        <h1>EVENTS</h1>
+        <p>Search, filter and browse student events.</p>
+      </div>
+    </header>
+    <section class="section">
+      <div class="container">
+        <div class="toolbar"><label class="search-box"><span class="sr-only">Search events</span><input id="eventSearch"
+              type="search" placeholder="Search events..."></label><label><span class="sr-only">Filter
+              category</span><select id="eventCategory">
+              <option value="all">All Categories</option>
+            </select></label><label><span class="sr-only">Sort events</span><select id="eventSort">
+              <option value="date-asc">Date: earliest</option>
+              <option value="date-desc">Date: latest</option>
+              <option value="title">Title: A–Z</option>
+            </select></label></div>
+        <div id="eventLoading" class="state-message">Loading events...</div>
+        <div id="eventGrid" class="event-grid"></div>
+        <div id="eventEmpty" class="state-message" hidden>No events match the selected search and filter.</div>
+        <div class="pagination" id="eventPagination" aria-label="Event pages"></div>
+      </div>
+    </section>
+    <div class="modal" id="eventModal" hidden role="dialog" aria-modal="true" aria-labelledby="eventModalTitle">
+      <div class="modal-card"><button class="modal-close" id="modalClose" type="button"
+          aria-label="Close event details">×</button><img id="eventModalImage" src="" alt="">
+        <div class="modal-content"><span class="course-code" id="eventModalCategory"></span>
+          <h2 id="eventModalTitle"></h2>
+          <p id="eventModalMeta" class="muted"></p>
+          <p id="eventModalDescription"></p><button class="btn" id="eventRegisterBtn" type="button">Register for
+            Event</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>STUDENTHUB &nbsp; / &nbsp; Campus information, student services and events.</footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

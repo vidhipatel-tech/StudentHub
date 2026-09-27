@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Fest 2026",
+    "category": "Technical",
+    "date": "2026-10-12",
+    "time": "10:00 AM",
+    "venue": "Main Auditorium",
+    "description": "A student technology festival featuring project showcases, coding activities and technical competitions.",
+    "image": "images/events/event-01.svg"
+  },
+  {
+    "id": 2,
+    "title": "Student Meetup",
+    "category": "Community",
+    "date": "2026-10-18",
+    "time": "11:00 AM",
+    "venue": "Seminar Hall",
+    "description": "A student gathering to connect with peers, exchange ideas and discover campus communities.",
+    "image": "images/events/event-02.svg"
+  },
+  {
+    "id": 3,
+    "title": "Cultural Night",
+    "category": "Cultural",
+    "date": "2026-10-24",
+    "time": "05:00 PM",
+    "venue": "Campus Ground",
+    "description": "An evening of music, dance and student performances from across the campus.",
+    "image": "images/events/event-03.svg"
+  },
+  {
+    "id": 4,
+    "title": "Web Development Workshop",
+    "category": "Technical",
+    "date": "2026-09-29",
+    "time": "10:00 AM",
+    "venue": "Computer Lab 2",
+    "description": "A practical session covering HTML, CSS and JavaScript through small web activities.",
+    "image": "images/events/event-04.svg"
+  },
+  {
+    "id": 5,
+    "title": "Career Preparation Session",
+    "category": "Career",
+    "date": "2026-10-02",
+    "time": "11:00 AM",
+    "venue": "Placement Cell",
+    "description": "A focused session on resumes, interviews and preparation for software development roles.",
+    "image": "images/events/event-05.svg"
+  },
+  {
+    "id": 6,
+    "title": "Coding Challenge",
+    "category": "Technical",
+    "date": "2026-10-07",
+    "time": "02:00 PM",
+    "venue": "Programming Lab",
+    "description": "A programming challenge with problem-solving activities for students.",
+    "image": "images/events/event-06.svg"
+  },
+  {
+    "id": 7,
+    "title": "Photography Walk",
+    "category": "Creative",
+    "date": "2026-10-09",
+    "time": "04:30 PM",
+    "venue": "Campus Gate",
+    "description": "A guided campus photography activity for students interested in visual storytelling.",
+    "image": "images/events/event-07.svg"
+  },
+  {
+    "id": 8,
+    "title": "Sports Day",
+    "category": "Sports",
+    "date": "2026-10-15",
+    "time": "08:00 AM",
+    "venue": "Sports Ground",
+    "description": "Inter-class sports activities and team events for students.",
+    "image": "images/events/event-08.svg"
+  },
+  {
+    "id": 9,
+    "title": "AI Awareness Talk",
+    "category": "Technical",
+    "date": "2026-10-20",
+    "time": "01:00 PM",
+    "venue": "Seminar Hall",
+    "description": "An introductory talk about current uses of artificial intelligence in technology and education.",
+    "image": "images/events/event-09.svg"
+  },
+  {
+    "id": 10,
+    "title": "Design Showcase",
+    "category": "Creative",
+    "date": "2026-10-22",
+    "time": "03:00 PM",
+    "venue": "Design Studio",
+    "description": "Students present interface designs, creative work and digital projects.",
+    "image": "images/events/event-10.svg"
+  },
+  {
+    "id": 11,
+    "title": "Innovation Meetup",
+    "category": "Innovation",
+    "date": "2026-10-27",
+    "time": "11:00 AM",
+    "venue": "Innovation Lab",
+    "description": "A student meetup for discussing ideas, prototypes and practical problem-solving.",
+    "image": "images/events/event-11.svg"
+  },
+  {
+    "id": 12,
+    "title": "Open Mic Evening",
+    "category": "Cultural",
+    "date": "2026-10-30",
+    "time": "05:30 PM",
+    "venue": "Student Activity Centre",
+    "description": "An open stage for music, poetry, storytelling and student performances.",
+    "image": "images/events/event-12.svg"
+  },
+  {
+    "id": 13,
+    "title": "Cyber Safety Session",
+    "category": "Technical",
+    "date": "2026-11-03",
+    "time": "12:00 PM",
+    "venue": "Computer Lab 1",
+    "description": "A student-focused session on safe passwords, phishing awareness and responsible online practices.",
+    "image": "images/events/event-13.svg"
+  },
+  {
+    "id": 14,
+    "title": "Project Expo",
+    "category": "Innovation",
+    "date": "2026-11-07",
+    "time": "10:00 AM",
+    "venue": "Main Auditorium",
+    "description": "A showcase of student projects, prototypes and practical work from different courses.",
+    "image": "images/events/event-14.svg"
+  },
+  {
+    "id": 15,
+    "title": "Student Wellness Workshop",
+    "category": "Community",
+    "date": "2026-11-12",
+    "time": "02:00 PM",
+    "venue": "Seminar Hall",
+    "description": "A practical workshop focused on healthy study routines, time planning and student wellbeing.",
+    "image": "images/events/event-15.svg"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "question": "What is StudentHub?",
+    "answer": "StudentHub is a student portal that brings campus events, course information, notices and student services together in one place."
+  },
+  {
+    "id": 2,
+    "question": "Who can use StudentHub?",
+    "answer": "Students can use the student area, while administrators can manage portal information through the admin area."
+  },
+  {
+    "id": 3,
+    "question": "How do I create an account?",
+    "answer": "Open the Register page, enter the required student details, create a password and accept the terms before submitting the form."
+  },
+  {
+    "id": 4,
+    "question": "Can I update my profile?",
+    "answer": "Yes. Open Profile from the Hub menu to update your student information and select a profile photo."
+  },
+  {
+    "id": 5,
+    "question": "Where can I find events?",
+    "answer": "Open the Events page to browse current activities and use search, category filters and sorting to find an event."
+  },
+  {
+    "id": 6,
+    "question": "Can I search and filter events?",
+    "answer": "Yes. Enter a keyword in the search box and choose a category to narrow the event list."
+  },
+  {
+    "id": 7,
+    "question": "Can I register for an event?",
+    "answer": "Open an event from the Events page and use its registration option to submit your interest."
+  },
+  {
+    "id": 8,
+    "question": "How do I submit feedback?",
+    "answer": "Open Feedback, enter your details and message, then submit the form."
+  },
+  {
+    "id": 9,
+    "question": "How do I contact StudentHub?",
+    "answer": "Use the Contact page for the StudentHub office details and contact form."
+  },
+  {
+    "id": 10,
+    "question": "How do I change the theme?",
+    "answer": "Use the sun/moon button in the navigation. The selected theme is saved in the browser."
+  },
+  {
+    "id": 11,
+    "question": "Does StudentHub work on mobile?",
+    "answer": "Yes. The layout uses responsive CSS Grid, Flexbox and media queries, with a hamburger menu for smaller screens."
+  },
+  {
+    "id": 12,
+    "question": "What information is loaded from JSON?",
+    "answer": "Events, student records and FAQ entries are loaded from external JSON files and rendered on the relevant pages."
+  },
+  {
+    "id": 13,
+    "question": "What happens when I enter an invalid registration value?",
+    "answer": "The registration form shows an error beside the relevant field and prevents submission until the required value is corrected."
+  },
+  {
+    "id": 14,
+    "question": "How are profile photos handled?",
+    "answer": "A selected image is previewed inside the fixed profile-photo box and stored in the browser so it remains available on the profile page."
+  },
+  {
+    "id": 15,
+    "question": "How can I access the student or admin dashboard?",
+    "answer": "Open Hub in the top navigation and choose the required dashboard from the dropdown menu."
+  }
+]

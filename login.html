@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudentHub student portal">
+  <title>Login - StudentHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+  <aside class="side-nav" aria-label="Primary navigation">
+    <a class="brand-mark" href="home.html" aria-label="StudentHub home">SH</a>
+    <nav class="side-links">
+      <a href="home.html">Home</a>
+      <a href="events.html">Events</a>
+      <button class="side-hub" id="sideHubBtn" type="button" aria-expanded="false"
+        aria-controls="sideHubMenu">Hub</button>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="side-bottom">STUDENTHUB</div>
+    <div class="side-hub-menu" id="sideHubMenu">
+      <a href="student-dashboard.html">Student</a>
+      <a href="admin-dashboard.html">Admin</a>
+    </div>
+  </aside>
+  <header class="top-nav">
+    <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="top-links" id="topLinks" aria-label="Top navigation">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <a href="feedback.html">Feedback</a>
+      <div class="hub-menu-wrap">
+        <button class="hub-button" id="hubButton" type="button" aria-expanded="false" aria-controls="hubMenu">Hub
+          <span>⌄</span></button>
+        <div class="hub-menu" id="hubMenu" hidden>
+          <a href="student-dashboard.html">Student Dashboard</a>
+          <a href="admin-dashboard.html">Admin Dashboard</a>
+        </div>
+      </div>
+      <a class="active" href="login.html">Login</a>
+      <a class="top-register" href="register.html">Register</a>
+    </nav>
+    <button class="theme-button" id="themeButton" type="button" aria-label="Switch theme">☾</button>
+  </header>
+  <main class="page"><!-- Practical 2: Semantic HTML5 -->
+    <header class="page-header">
+      <div class="container">
+        <div class="kicker">Student access</div>
+        <h1>LOGIN</h1>
+        <p>Sign in to open your StudentHub dashboard.</p>
+      </div>
+    </header>
+    <section class="section">
+      <div class="container narrow">
+        <form class="form-card" id="loginForm" novalidate>
+          <div class="form-group"><label for="loginEmail">Email</label><input id="loginEmail" type="email"
+              required><small class="error" data-error-for="loginEmail"></small></div>
+          <div class="form-group password-field"><label for="loginPassword">Password</label><input id="loginPassword"
+              type="password" required><button class="password-toggle" type="button"
+              data-password-toggle="loginPassword" aria-label="Show password">◉</button><small class="error"
+              data-error-for="loginPassword"></small></div><label class="check-row"><input type="checkbox"
+              id="rememberMe"> Remember me</label><button class="btn" type="submit">Login</button>
+          <p class="form-success" id="loginSuccess" hidden>Login details accepted. Open Hub to choose the dashboard.</p>
+          <p class="form-note">New student? <a href="register.html">Create an account</a>.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>STUDENTHUB &nbsp; / &nbsp; Campus information, student services and events.</footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
