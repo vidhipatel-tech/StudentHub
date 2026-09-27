@@ -1,36 +1,56 @@
-# StudentHub — Practical 1 to 6
+# StudentHub
+A web-based student portal designed for managing events, student profiles, feedback, and dashboard views for both students and administrators.
+---
 
-StudentHub is a semester project for Web Development Frameworks (ITUE203). This version covers the project work through Practical 6 using HTML5, CSS3, JavaScript and JSON.
+## 📁 Directory Structure
 
-## Pages
-- Home
-- About
-- Events
-- Contact
-- FAQ
-- Feedback
-- Register
-- Login
-- Student Dashboard
-- Profile
-- Admin Dashboard
+StudentHub/
+│
+├── 📄 home.html               # Main landing page
+├── 📄 about.html              # About page
+├── 📄 contact.html            # Contact us page
+├── 📄 login.html              # User authentication login page
+├── 📄 register.html           # User account registration page
+├── 📄 profile.html            # Student profile management
+├── 📄 student-dashboard.html  # Student interface & metrics
+├── 📄 admin-dashboard.html    # Admin management panel
+├── 📄 events.html             # Event listings and details
+├── 📄 faq.html                # Frequently Asked Questions page
+├── 📄 feedback.html           # Feedback submission page
+│
+├── 📁 css/
+│   └── style.css              # Main application stylesheet
+│
+├── 📁 js/
+│   └── app.js                 # Primary JavaScript logic & interaction dynamics
+│
+├── 📁 data/
+│   ├── events.json            # Event dataset
+│   ├── faqs.json              # FAQ dataset
+│   └── students.json          # Mock student profiles & records
+│
+└── 📁 images/
+    └── events/                # Event vectors and thumbnails
 
-## Branches
-StudentHub uses three B.Tech branches only:
-- B.Tech IT
-- B.Tech CE
-- B.Tech CSE
+✨ Features
+Authentication System: UI structures for student registration and login.
+Dashboards: Dedicated views for students (student-dashboard.html) and system administrators (admin-dashboard.html).
+Event Portal: Comprehensive event directory powered by SVG graphics (images/events/) and dynamic data rendering (events.json).
+Interactive UI & Data Binding: Frontend logic in js/app.js handles data loading from JSON files (data/).
+Support & Feedback: Features dynamic FAQs and a direct feedback portal.
 
-## Practical coverage
-- Practical 1: project structure, page planning, role areas and navigation
-- Practical 2: semantic HTML5 structure, labels, headings, links and image alt text
-- Practical 3: responsive CSS Grid, Flexbox, media queries and reusable styling
-- Practical 4: collapsible FAQ, modal popup, event slider, notification banner, hamburger menu, theme switcher and localStorage
-- Practical 5: registration validation, regular expressions, password strength, confirm password and user-friendly errors
-- Practical 6: events.json, students.json and faqs.json with Fetch API, rendering, search, filter, sort and pagination
+🛠️ Technology Stack
+Frontend: HTML5, CSS3, JavaScript (Vanilla JS)
+Data Source: JSON (data/ directory)
+Assets: SVG vector assets for events
 
-## Image handling
-Event posters are stored locally in `images/events/` and their paths are supplied through `data/events.json`. Profile photos are selected from the user's device, shown inside a fixed-size preview box with `object-fit: cover`, limited to 2 MB, and saved in browser localStorage for the profile page.
+🚀 Getting Started
+Clone or Extract: Ensure all files maintain the folder structure listed above.
 
-## Run
-Open the project through a local web server so Fetch API can load the JSON files correctly.
+Run Locally:
+Open home.html in any modern web browser.
+
+Note: Because the site loads JSON files via asynchronous requests (fetch), it is recommended to run the project through a local development server (such as VS Code Live Server or python -m http.server) to avoid CORS restrictions on local file paths (file://).
+
+📝 Lab Work Scope
+This project demonstrates key front-end development milestones including responsive layout structure, modular styling, client-side scripting, JSON data processing, and dashboard layout design.
