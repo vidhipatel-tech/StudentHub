@@ -46,7 +46,7 @@ StudentHub/
 ├── css/style.css                  all styles, light and dark themes
 ├── js/app.js                      all front-end behaviour
 ├── data/                          events.json, faqs.json, students.json
-├── images/events/                 event posters (SVG)
+├── images/events/                 event posters
 ├── database/studenthub.sql        schema + starter data (single file)
 ├── storage/                       contact and feedback submissions (created at runtime)
 └── php/
