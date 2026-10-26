@@ -1,0 +1,11 @@
+# Data created while the site is used (messages, feedback, uploads)
+storage/contact_messages.csv
+storage/feedback.json
+php/uploads/event-posters/*
+!php/uploads/event-posters/.htaccess
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

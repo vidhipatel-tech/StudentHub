@@ -7,7 +7,7 @@
     "time": "10:00 AM",
     "venue": "Main Auditorium",
     "description": "A student technology festival featuring project showcases, coding activities and technical competitions.",
-    "image": "images/events/event-01.svg"
+    "image": "images/events/event-01.png"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "time": "11:00 AM",
     "venue": "Seminar Hall",
     "description": "A student gathering to connect with peers, exchange ideas and discover campus communities.",
-    "image": "images/events/event-02.svg"
+    "image": "images/events/event-02.png"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "time": "05:00 PM",
     "venue": "Campus Ground",
     "description": "An evening of music, dance and student performances from across the campus.",
-    "image": "images/events/event-03.svg"
+    "image": "images/events/event-03.png"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "time": "10:00 AM",
     "venue": "Computer Lab 2",
     "description": "A practical session covering HTML, CSS and JavaScript through small web activities.",
-    "image": "images/events/event-04.svg"
+    "image": "images/events/event-04.png"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "time": "11:00 AM",
     "venue": "Placement Cell",
     "description": "A focused session on resumes, interviews and preparation for software development roles.",
-    "image": "images/events/event-05.svg"
+    "image": "images/events/event-05.png"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "time": "02:00 PM",
     "venue": "Programming Lab",
     "description": "A programming challenge with problem-solving activities for students.",
-    "image": "images/events/event-06.svg"
+    "image": "images/events/event-06.png"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "time": "04:30 PM",
     "venue": "Campus Gate",
     "description": "A guided campus photography activity for students interested in visual storytelling.",
-    "image": "images/events/event-07.svg"
+    "image": "images/events/event-07.png"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "time": "08:00 AM",
     "venue": "Sports Ground",
     "description": "Inter-class sports activities and team events for students.",
-    "image": "images/events/event-08.svg"
+    "image": "images/events/event-08.png"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "time": "01:00 PM",
     "venue": "Seminar Hall",
     "description": "An introductory talk about current uses of artificial intelligence in technology and education.",
-    "image": "images/events/event-09.svg"
+    "image": "images/events/event-09.png"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "time": "03:00 PM",
     "venue": "Design Studio",
     "description": "Students present interface designs, creative work and digital projects.",
-    "image": "images/events/event-10.svg"
+    "image": "images/events/event-10.png"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "time": "11:00 AM",
     "venue": "Innovation Lab",
     "description": "A student meetup for discussing ideas, prototypes and practical problem-solving.",
-    "image": "images/events/event-11.svg"
+    "image": "images/events/event-11.png"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "time": "05:30 PM",
     "venue": "Student Activity Centre",
     "description": "An open stage for music, poetry, storytelling and student performances.",
-    "image": "images/events/event-12.svg"
+    "image": "images/events/event-12.png"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "time": "12:00 PM",
     "venue": "Computer Lab 1",
     "description": "A student-focused session on safe passwords, phishing awareness and responsible online practices.",
-    "image": "images/events/event-13.svg"
+    "image": "images/events/event-13.png"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "time": "10:00 AM",
     "venue": "Main Auditorium",
     "description": "A showcase of student projects, prototypes and practical work from different courses.",
-    "image": "images/events/event-14.svg"
+    "image": "images/events/event-14.png"
   },
   {
     "id": 15,
@@ -147,6 +147,6 @@
     "time": "02:00 PM",
     "venue": "Seminar Hall",
     "description": "A practical workshop focused on healthy study routines, time planning and student wellbeing.",
-    "image": "images/events/event-15.svg"
+    "image": "images/events/event-15.png"
   }
 ]
