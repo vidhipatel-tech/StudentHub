@@ -38,7 +38,7 @@ $subtitle = $student ? strtoupper($student['course'] . ' / ' . $student['year'])
 
 function posterSrc(string $image): string
 {
-  if ($image === '') return 'images/events/event-01.svg';
+  if ($image === '') return 'images/events/event-01.png';
   return str_starts_with($image, 'uploads/') ? 'php/' . $image : $image;
 }
 

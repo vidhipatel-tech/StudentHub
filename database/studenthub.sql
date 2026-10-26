@@ -103,21 +103,21 @@ INSERT IGNORE INTO students (student_id, name, email, mobile, course, year) VALU
 ('STU021','Demo Student','student@studenthub.edu','9876500021','B.Tech IT','3rd Year');
 
 INSERT IGNORE INTO events (event_id, title, category, event_date, event_time, venue, description, image) VALUES
-(1,'Tech Fest 2026','Technical','2026-10-12','10:00 AM','Main Auditorium','A student technology festival featuring project showcases, coding activities and technical competitions.','images/events/event-01.svg'),
-(2,'Student Meetup','Community','2026-10-18','11:00 AM','Seminar Hall','A student gathering to connect with peers, exchange ideas and discover campus communities.','images/events/event-02.svg'),
-(3,'Cultural Night','Cultural','2026-10-24','05:00 PM','Campus Ground','An evening of music, dance and student performances from across the campus.','images/events/event-03.svg'),
-(4,'Web Development Workshop','Technical','2026-09-29','10:00 AM','Computer Lab 2','A practical session covering HTML, CSS and JavaScript through small web activities.','images/events/event-04.svg'),
-(5,'Career Preparation Session','Career','2026-10-02','11:00 AM','Placement Cell','A focused session on resumes, interviews and preparation for software development roles.','images/events/event-05.svg'),
-(6,'Coding Challenge','Technical','2026-10-07','02:00 PM','Programming Lab','A programming challenge with problem-solving activities for students.','images/events/event-06.svg'),
-(7,'Photography Walk','Creative','2026-10-09','04:30 PM','Campus Gate','A guided campus photography activity for students interested in visual storytelling.','images/events/event-07.svg'),
-(8,'Sports Day','Sports','2026-10-15','08:00 AM','Sports Ground','Inter-class sports activities and team events for students.','images/events/event-08.svg'),
-(9,'AI Awareness Talk','Technical','2026-10-20','01:00 PM','Seminar Hall','An introductory talk about current uses of artificial intelligence in technology and education.','images/events/event-09.svg'),
-(10,'Design Showcase','Creative','2026-10-22','03:00 PM','Design Studio','Students present interface designs, creative work and digital projects.','images/events/event-10.svg'),
-(11,'Innovation Meetup','Innovation','2026-10-27','11:00 AM','Innovation Lab','A student meetup for discussing ideas, prototypes and practical problem-solving.','images/events/event-11.svg'),
-(12,'Open Mic Evening','Cultural','2026-10-30','05:30 PM','Student Activity Centre','An open stage for music, poetry, storytelling and student performances.','images/events/event-12.svg'),
-(13,'Cyber Safety Session','Technical','2026-11-03','12:00 PM','Computer Lab 1','A student-focused session on safe passwords, phishing awareness and responsible online practices.','images/events/event-13.svg'),
-(14,'Project Expo','Innovation','2026-11-07','10:00 AM','Main Auditorium','A showcase of student projects, prototypes and practical work from different courses.','images/events/event-14.svg'),
-(15,'Student Wellness Workshop','Community','2026-11-12','02:00 PM','Seminar Hall','A practical workshop focused on healthy study routines, time planning and student wellbeing.','images/events/event-15.svg');
+(1,'Tech Fest 2026','Technical','2026-10-12','10:00 AM','Main Auditorium','A student technology festival featuring project showcases, coding activities and technical competitions.','images/events/event-01.png'),
+(2,'Student Meetup','Community','2026-10-18','11:00 AM','Seminar Hall','A student gathering to connect with peers, exchange ideas and discover campus communities.','images/events/event-02.png'),
+(3,'Cultural Night','Cultural','2026-10-24','05:00 PM','Campus Ground','An evening of music, dance and student performances from across the campus.','images/events/event-03.png'),
+(4,'Web Development Workshop','Technical','2026-09-29','10:00 AM','Computer Lab 2','A practical session covering HTML, CSS and JavaScript through small web activities.','images/events/event-04.png'),
+(5,'Career Preparation Session','Career','2026-10-02','11:00 AM','Placement Cell','A focused session on resumes, interviews and preparation for software development roles.','images/events/event-05.png'),
+(6,'Coding Challenge','Technical','2026-10-07','02:00 PM','Programming Lab','A programming challenge with problem-solving activities for students.','images/events/event-06.png'),
+(7,'Photography Walk','Creative','2026-10-09','04:30 PM','Campus Gate','A guided campus photography activity for students interested in visual storytelling.','images/events/event-07.png'),
+(8,'Sports Day','Sports','2026-10-15','08:00 AM','Sports Ground','Inter-class sports activities and team events for students.','images/events/event-08.png'),
+(9,'AI Awareness Talk','Technical','2026-10-20','01:00 PM','Seminar Hall','An introductory talk about current uses of artificial intelligence in technology and education.','images/events/event-09.png'),
+(10,'Design Showcase','Creative','2026-10-22','03:00 PM','Design Studio','Students present interface designs, creative work and digital projects.','images/events/event-10.png'),
+(11,'Innovation Meetup','Innovation','2026-10-27','11:00 AM','Innovation Lab','A student meetup for discussing ideas, prototypes and practical problem-solving.','images/events/event-11.png'),
+(12,'Open Mic Evening','Cultural','2026-10-30','05:30 PM','Student Activity Centre','An open stage for music, poetry, storytelling and student performances.','images/events/event-12.png'),
+(13,'Cyber Safety Session','Technical','2026-11-03','12:00 PM','Computer Lab 1','A student-focused session on safe passwords, phishing awareness and responsible online practices.','images/events/event-13.png'),
+(14,'Project Expo','Innovation','2026-11-07','10:00 AM','Main Auditorium','A showcase of student projects, prototypes and practical work from different courses.','images/events/event-14.png'),
+(15,'Student Wellness Workshop','Community','2026-11-12','02:00 PM','Seminar Hall','A practical workshop focused on healthy study routines, time planning and student wellbeing.','images/events/event-15.png');
 
 INSERT IGNORE INTO registrations (student_id, event_id, registered_at) VALUES
 ('STU003',1,'2026-09-20 10:15:00'),('STU002',2,'2026-09-21 11:20:00'),('STU005',5,'2026-09-22 14:05:00');
